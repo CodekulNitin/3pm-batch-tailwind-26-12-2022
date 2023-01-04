@@ -7,16 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
-    <nav class="flex justify-between items-center px-4 lg:px-12 shadow p-2 fixed top-0 w-full bg-white z-50">
+    <nav class="flex justify-between items-center px-4 px-12 shadow p-2 fixed top-0 w-full bg-white">
         <ul>
             <li>
-                <a href=""><img src="./assets/logo.png" class="h-12" alt=""></a>
+                <a href=""><img src="./Group 122.svg" class="h-12" alt=""></a>
             </li>
         </ul>
         <div class="hidden lg:block">
@@ -49,28 +47,163 @@
                 </li>
             </ul>
         </div>
-        <ul class="lg:hidden">
-            <li class="text-red-600 text-xl">
-                <a href="">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
-            </li>
-        </ul>
     </nav>
-    <div class="mt-20 lg:flex px-4 lg:px-12 justify-between">
+    <div class="mt-20  lg:flex  px-4 px-12 justify-between">
         <div>
-            <h1 class="text-indigo-900 text-2xl lg:text-4xl font-semibold lg:mt-16">Get Access To Unlimited <br>
+            <h1 class="text-indigo-900 text-2xl md:text-3xl lg:text-4xl font-semibold mt-16">Get Access To
+                Unlimited <br>
                 Resourses!</h1>
-
+            <p class="font-thin text-sm lg:text-2xl mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur
+                <br>adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit.consectetur
+                adipiscing elit.
+            </p>
+          
+            <div class="flex space-x-3 mt-3">
+                <input class="box-border lg:h-10 lg:w-72  border-2  p-2 " type="search" name="" id="" placeholder="search course">
+                <button class="bg-orange-500 text-xs text-white rounded p-1 lg:h-10 lg:w-36" type="button">
+                    Submit
+                </button>
+            </div>
         </div>
 
         <div>
-            <img src="./assets//header.svg" class="lg:h-96" />
+            <img src="./assets/header.svg" class=" md:h-[400px] lg:h-5/6" />
         </div>
 
     </div>
+    <div>
+        <p class="flex justify-center text-blue-900 font-bold font-Sora mt-5 lg:mt-20 text-2xl">Popular Category</p>
+        <div class="md:grid md:grid-cols-2 lg:grid-cols-4 justify-center  items-center px-5 lg:px-12 text-blue-900 ">
+            <div class="box-border h-60 w-44 p-4 text-center ">
+                <div
+                    class="box-border h-20 w-20 rounded-full mt-2 ml-8 border bg-[#FAFAFA] flex justify-center items-center">
+                    <img class="h-20 w-10" src="./assets/Vector.svg" alt=""></div>
+                <h3 class="text-blue-900 mt-3 font-bold text-sm text-center">Web Development</h3>
+                <p class="font-light text-sm text-center">Eleifend odio elit etiam <br>
+                    praesent pharetra,vel</p>
+            </div>
+            <div class="box-border h-60 w-44 p-4  items-center ">
+                <div
+                    class="box-border h-20 w-20 rounded-full mt-2 ml-8 border bg-[#FAFAFA] flex justify-center items-center">
+                    <img class="h-20 w-10" src="./assets/Vector 2.svg" alt=""></div>
+                <h3 class="text-blue-900 mt-3 font-bold text-sm  text-center">Digital Marketing</h3>
+                <p class="font-light text-sm  text-center">Eleifend odio elit etiam
+                    praesent pharetra,vel</p>
+            </div>
+            <div class="box-border h-60 w-44 p-4  items-center ">
+                <div
+                    class="box-border h-20 w-20 rounded-full mt-2 ml-8 border bg-[#FAFAFA] flex justify-center items-center">
+                    <img class="h-20 w-10" src="./assets/Vector 3.svg" alt=""></div>
+                <h3 class="text-blue-900 mt-3 font-bold text-sm  text-center">Graphics Designing</h3>
+                <p class="font-light text-sm  text-center">Eleifend odio elit etiam
+                    praesent pharetra,vel</p>
+            </div>
+            <div class="box-border h-60 w-44 p-4  items-center ">
+                <div
+                    class="box-border h-20 w-20 rounded-full mt-2 ml-8 border bg-[#FAFAFA] flex justify-center items-center">
+                    <img class="h-12 w-10" src="./assets/Vector 4.svg" alt=""></div>
+                <h3 class="text-blue-900 mt-3 font-bold text-sm  text-center">App Development</h3>
+                <p class="font-light text-sm  text-center">Eleifend odio elit etiam
+                    praesent pharetra,vel</p>
+            </div>
+        </div>
+    </div>
+    <div class="hidden md:block">
+        <p class="flex justify-center text-blue-900 font-bold font-Sora"> Most Popular Courses</p>
+        <div class="flex lg:px-12 text-gray-400 font-semibold text-xl">
+            <h5 class="font-light text-lg mt-2 ml-2 border-b-2 border-indigo-900">All category</h5>
+            <h5 class="font-light text-lg ml-2 mt-2">UI/UX Design</h5>
+            <h5 class="font-light text-lg ml-2 mt-2"> Web Development</h5>
+            <h5 class="font-light text-lg ml-2 mt-2">Digital Marketing</h5>
+            <h5 class="font-light text-lg ml-2 mt-2">App Development</h5>
+        </div>
+        <div class="md:grid md:grid-cols-2 lg:flex  justify-between mt-4 px-4 lg:px-12">
+            <div class="box-border border-1 h-64 w-60  mt-2">
+                <div class="box-border  h-44 w-60  "><img class="h-44 w-60" src="" alt="">
+                    <h6 class="text-sm font-light ">Graphics desgin</h6>
+                    <p class="text-sm font-bold ">Fundamentals Of Design & Drawing</p>
+                    <p class="text-sm font-light text-green">₹ 2542.00</p>
+                    <button class="bg-orange-500 text-xs text-white rounded h-4 w-60 " type="button">
+                        Submit
+                    </button>
+                </div>
+            </div>
+            <div class="box-border border-1 h-64 w-60  mt-2 ml-8">
+                <div class="box-border  h-44 w-60  "><img class="h-44 w-60" src="" alt="">
+                    <h6 class="text-sm font-light ">Graphics desgin</h6>
+                    <p class="text-sm font-bold ">Fundamentals Of Design & Drawing</p>
+                    <p class="text-sm font-light text-green">₹ 2542.00</p>
+                    <button class="bg-orange-500 text-xs text-white rounded h-4 w-60 " type="button">
+                        Submit
+                    </button>
+                </div>
+            </div>
+            <div class="box-border border-1 h-64 w-60  mt-2 ml-8">
+                <div class="box-border  h-44 w-60  "><img class="h-44 w-60" src="" alt="">
+                    <h6 class="text-sm font-light ">Graphics desgin</h6>
+                    <p class="text-sm font-bold ">Fundamentals Of Design & Drawing</p>
+                    <p class="text-sm font-light text-green">₹ 2542.00</p>
+                    <button class="bg-orange-500 text-xs text-white rounded h-4 w-60 " type="button">
+                        Submit
+                    </button>
+                </div>
+            </div>
+            <div class="box-border border-1 h-64 w-60  mt-2 ml-8">
+                <div class="box-border  h-44 w-60  "><img class="h-44 w-60" src="" alt="">
+                    <h6 class="text-sm font-light ">Graphics desgin</h6>
+                    <p class="text-sm font-bold ">Fundamentals Of Design & Drawing</p>
+                    <p class="text-sm font-light text-green">₹ 2542.00</p>
+                    <button class="bg-orange-500 text-xs text-white rounded h-4 w-60 " type="button">
+                        Submit
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="px-5">
+        <p class="flex justify-center text-blue-900 font-bold font-Sora mt-8"> View More Courses</p>
+        <p class="flex justify-center text-blue-900 font-bold font-Sora mt-8 md:text-2xl"> People Says About Courses
+        </p>
+
+        <div class="grid  lg:flex  justify-evenly mt-8 px-5 lg:px-12">
+            <div class="box-border border-1 h-30 w-96  mt-2 ml-8 shadow p-2">
+                <div class="box-border flex bg-orange-10 h-28 w-80  mt-2 ">
+                    <div class="box-border border-1 h-28 w-28  "><img class="h-28 w-28" src="" alt="">
+
+                    </div>
+                    <p>Ritesh tagunde</p>
+                    <p class="mt-8">njdsncbdscdsncdscuhcs <br>dcbdhbcdhcbdhbcdsb</p>
+
+                </div>
+            </div>
+            <div class="box-border border-1 h-30 w-96  mt-2 ml-8 shadow p-2">
+                <div class="box-border flex bg-orange-10 h-28 w-80  mt-2">
+                    <div class="box-border border-1 h-28 w-28  "><img class="h-28 w-28" src="" alt="">
+
+                    </div>
+                    <p>Ritesh tagunde</p>
+                    <p class="mt-8">njdsncbdscdsncdscuhcs <br>dcbdhbcdhcbdhbcdsb</p>
+
+                </div>
+            </div>
+            <div class="box-border border-1 h-30 w-96  mt-2 ml-8 shadow p-2">
+                <div class="box-border flex bg-orange-10 h-28 w-80  mt-2 ">
+                    <div class="box-border border-1 h-28 w-28  "><img class="h-28 w-28" src="\" alt="">
+
+                    </div>
+                    <p>Ritesh tagunde</p>
+                    <p class="mt-8">njdsncbdscdsncdscuhcs <br>dcbdhbcdhcbdhbcdsb</p>
+
+                </div>
+            </div>
 
 
+        </div>
+    </div>
+    <div>
+        <img class="h-60 w-full mt-16" src="./Footer.png" alt="">
+    </div>
 </body>
 
 </html>
